@@ -1,14 +1,12 @@
 # raf-mendonca.github.io
 
-Gr1017 Projet final - Rafael Mendonça
+# Gr1017 Projet final - Rafael Mendonça
 
 ### Ancienne version au
 
-## https://github.com/raf-mendonca/1017examen2rafaelmendonca
+#### https://github.com/raf-mendonca/1017examen2rafaelmendonca
 
 ### 1017examen2rafaelmendonca
-
-1017 Examen 2 Vue Rafael Mendonça
 
 ## Besoin fonctionnels
 
