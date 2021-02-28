@@ -1,11 +1,12 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
+// Importation des composants utilisées dans la route.
 import Accueil from "../views/Accueil.vue";
 import Contact from "../views/Contact.vue";
 import Projet from "../views/Projet.vue";
 
 Vue.use(VueRouter);
-
+// Création de la route.
 const routes = [
   {
     path: "/Accueil",
@@ -39,3 +40,4 @@ const router = new VueRouter({
 });
 
 export default router;
+// 2 commentaire

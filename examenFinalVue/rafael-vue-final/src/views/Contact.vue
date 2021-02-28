@@ -8,7 +8,7 @@
 
             <label><h3>Raison du contact</h3></label><!---->
                 <select name="selectDrop">
-                    <option v-for="(item, i) in dropdown" :key="i"> {{ item }}</option> <!--Directve v-for qui traverse tous les éléments de la liste -->
+                    <option v-for="(item, i) in dropdown" :key="i"> {{ item }}</option> <!--Directive v-for qui traverse tous les éléments de la liste -->
                 </select>
             <button type="submit" class="btn btn-dark">{{'submit' }}</button>    
         </form>
@@ -21,7 +21,7 @@ export default {
     name: 'Contact',   
     data() {
         return {
-            dropdown: [ //Dropdown des options dans le formulaire
+            dropdown: [ //Dropdown des options dans le formulaire lié par v-for
                         "Informations",
                         "Compétences",
                         "Profession",
@@ -55,3 +55,4 @@ textarea {
   resize: vertical;
 }
 </style>
+<!--2 commentaires-->

@@ -1,5 +1,5 @@
 <template>
-    <footer v-copyright></footer>
+    <footer v-copyright></footer><!--Copyright lié par la directive v-copyright-->
 </template>
 
 <script>
@@ -10,7 +10,7 @@ export default {
       bind: function (el) {
         var date = new Date();
         var annee = date.getFullYear();
-        let copyright = "<p>Copyright &copy;" + annee + " - Rafael Izaias De Mendonça</p>";
+        let copyright = "<p>Copyright &copy;" + annee + " - <a href='https://github.com/raf-mendonca/raf-mendonca.github.io/blob/main/LICENSE' target='_blank'>Rafael Izaias De Mendonça</a> </p>"; //Lien pour la license MIT
         el.insertAdjacentHTML( 'beforeend', copyright );
       }
     }
@@ -18,8 +18,7 @@ export default {
 
 }
 </script>
-
-<!-- Ajoutez l'attribut "scoped" pour limiter le CSS à ce composant uniquement -->
+<!--Ne pas ajouter scoped pour que le style soit fonctionnel dans toute l'application -->
 <style> 
     footer {
         width: 100%;
@@ -30,3 +29,4 @@ export default {
     }
    
 </style>
+<!--3 commentaires-->

@@ -10,6 +10,16 @@ Gr1017 Projet final - Rafael Mendonça
 
 1017 Examen 2 Vue Rafael Mendonça
 
+## Besoin fonctionnels
+
+```
+Demostration de page avec libellés de traduction du site en langue anglaise et française.
+Simulation de affichage de contenue selon status de connexion de l'utisateur.
+Exemple de formulaire de contact.
+Navigation entre composants de la page à l'en-tête.
+La navigation sans post-back.
+```
+
 ### GitHub création du repository
 
 ```
