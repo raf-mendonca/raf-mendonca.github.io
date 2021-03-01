@@ -2,7 +2,7 @@
     <div class="container">
         <div id="projet" >
             <h1>Projets</h1>
-            <h3>Découvrez tous les projets du portfolio. <a href="https://raphpro.ca"  target="_blank">Accedez le site.</a></h3>
+            <h3>Découvrez tous les projets du portfolio. <a href="https://raphpro.ca"  target="_blank">Accédez le site.</a></h3>
         </div>
         <h2>{{ Projets }}</h2>
             <ul><!--Directive v-for qui traverse tous les éléments de la liste -->
