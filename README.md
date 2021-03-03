@@ -52,3 +52,34 @@ vue create examen2rafael
 ```
 vue add router
 ```
+## Déploiement du site su GitHub Pages
+
+### Justification - Pourquoi utiliser les pages GitHub?
+
+```
+GitHubPages est l'un des moyens les plus simples et les plus rapides d'héberger votre site Web, même sans avoir à payer.
+```
+
+### Étapes
+
+```
+npm run build
+creation du module.exports *
+éffacer /dist dans le .gitignore
+actualization du dist/index.html
+```
+
+#### Dans le terminal
+
+```
+cd dist
+git init
+git remote add deploy git@github.com:raf-mendonca/raf-mendonca.github.io.git
+git remote update -p
+git remote add deploy git@github.com:raf-mendonca/raf-mendonca.github.io.git
+$ git add .
+git commit -m "Projet final vue"
+git remote add origin https://github.com/raf-mendonca/raf-mendonca.github.io.git (dans mon cas)
+git push --set-upstream origin master
+
+```
